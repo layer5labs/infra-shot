@@ -45,7 +45,7 @@ on: # rebuild any PRs and main branch changes
 
 jobs:
   test: # make sure the action works on a clean machine without building
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Set PR number # To comment the final status on the Pull-request opened in any repository
         run: |
@@ -83,7 +83,7 @@ on: # rebuild any PRs and main branch changes
 
 jobs:
   test: # make sure the action works on a clean machine without building
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Set PR number # To comment the final status on the Pull-request opened in any repository
         run: |
