@@ -9,7 +9,7 @@
 
 # jobs:
 #   test: # make sure the action works on a clean machine without building
-#     runs-on: ubuntu-latest
+#     runs-on: ubuntu-24.04
 #     steps:
 #       - uses: actions/checkout@v3
 #         with: 
@@ -24,7 +24,7 @@
 #           jsonArtifact: "./__tests__/ouput.json"
    
 #   download:
-#     runs-on: ubuntu-latest
+#     runs-on: ubuntu-24.04
 #     needs: test
 #     steps:
 #       - uses: actions/checkout@v3
